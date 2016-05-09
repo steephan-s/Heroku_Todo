@@ -1,0 +1,18 @@
+#Ignore all compiled python files
+*.pyc
+*.pyo
+*.db
+
+# ignore editor backup files
+*~
+*.swp
+*.swo
+*.swn
+*.swm
+
+#Ignore all emacs files
+*#
+.#*
+
+#Ignore all database files
+*.sqlite3
