@@ -8,6 +8,7 @@ app_name = 'api'
 urlpatterns = [
     url(r'^$', views.index.as_view(), name='index'),
     url(r'^(?P<pk>\d+)$', views.details.as_view(), name='details'),
+    url(r'^sort/', views.todolistview.as_view(), name='todolistview'),
 ]
 
 urlpatterns = format_suffix_patterns(urlpatterns)
